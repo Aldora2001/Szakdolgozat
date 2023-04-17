@@ -1,0 +1,7 @@
+Fenti menüpontok:
+- Kezdőlap
+- Tábla
+- Naptár
+- Email
+
+- Readme a főoldalra.

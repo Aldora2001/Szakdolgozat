@@ -1,0 +1,33 @@
+<meta charset = "utf-8">
+<div class = "navbar-header">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		<span class="glyphicon glyphicon-option-vertical"></span>
+	</button>
+</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li><a href="./main"><span>Főoldal</span></a></li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#" data-toggle="modal" data-target="#register-modal"><span class="glyphicon glyphicon-user"></span> <span>Regisztráció</span> </a></li>
+			<li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> <span>Belépés</span> </a></li>
+		</ul>
+    </div>
+<body>
+</body>
+	<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+		<div class="modal-dialog">
+			<div class="loginmodal-container">
+				<h1 class = "bejelentkezes">Bejelentkezés</h1><br>
+
+				<input type="text" name="user" placeholder="Felhasználónév">
+				<input type="password" name="pass" placeholder="Jelszó">
+				<input type="submit" id="logingomb" name="login" class="login loginmodal-submit" value="Belépés">
+
+				<div class="login-help">
+					<a href="" id="reg" >Regisztráció</a>
+				</div>
+			</div>
+		</div>
+	</div>

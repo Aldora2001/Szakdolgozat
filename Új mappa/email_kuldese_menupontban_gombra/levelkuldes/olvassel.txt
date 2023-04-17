@@ -1,0 +1,9 @@
+1. keress rá: 
+gmail fiokhozzaferes
+2. a találat:
+https://support.google.com/accounts/answer/6010255?hl=hu
+3. lentebb a lapon:
+Fiókhozzáférés módosítása a kevésbé biztonságos alkalmazásoknál
+4. ezen a ponton belül a 2.1.pontban
+Lépjen Google-fiókja Kevésbé biztonságos alkalmazások szakaszához.
+5. Be kell kapcsolni

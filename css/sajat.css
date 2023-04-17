@@ -1,0 +1,276 @@
+#hibaszoveg,#hiba1
+{
+	color:red;
+}
+
+body, html
+{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+.fooldalkep
+{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.fooldalkep
+{
+	background-image: url('../kepek/main.jpg');
+	min-height: 100%;
+}
+
+.section
+{
+	text-align: center;
+	padding: 10px 10px;
+}
+.section-light
+{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark
+{
+	background-color: #282e34;
+	color: #ddd;
+}
+.fooldalkepszoveg, .elsokepszoveg, .masodikkepszoveg, .harmadikkepszoveg
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.bevezeto
+{
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px white;
+}
+.border
+{
+	background-color: #111;
+	opacity: .8;
+}
+
+h1
+{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.bejelentkezes, .regisztracio
+{
+	color: black;
+}
+
+.collapse
+{
+	background-color: white;
+	margin-bottom: 10px;
+	top: 0px;
+}
+#temanev
+{
+	color: none;
+}
+
+.collapse a
+{
+	color: rgb(128, 36, 0);
+}
+li
+{
+	list-style-type: none;
+}
+.temakeret
+{
+	border:solid black 1px;
+	padding:10px;
+	text-align:center;
+	margin:10px;
+	-webkit-border-radius: 10px;
+	word-wrap: break-word;
+
+}
+.kereseskeret
+{
+	border:solid blue 1px;
+	padding:10px;
+	margin:10px;
+}
+
+.kereseskeret:hover
+{
+	border:solid blue 2px;
+}
+
+.keresekkeret
+{
+	border:solid grey 1px;
+	padding:10px;
+	margin:10px;
+}
+
+.datumkeret
+{
+	color:green;
+	text-align:right;
+	font-size:12px;
+	font-style:italic;
+}
+
+.felhkeret
+{
+	color:blue;
+	font-size:14px;
+	font-style:italic;
+	float:left;
+}
+
+.felvitelszovegmezo
+{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	border-color: #7db0f3;
+}
+
+#bevitel3
+{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+}
+
+#gomb
+{
+	background-color: #0047a5;
+	color: white;
+	border-color: rgb(0, 1, 41);
+	border-width: 1px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+#gomb:hover
+{
+	background-color: aquamarine;
+	color: #111;
+}
+#bevitel5
+{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#temasorrend, .keresekkeret
+{
+	-webkit-border-radius: 3px;
+}
+.temasorrend
+{
+	padding-left: 10px;
+}
+
+#responsive
+{
+	max-width: 100%;
+	height: auto;
+}
+#felvitel
+{
+	font-family: 'Times New Roman', Times, serif;
+}
+.keresekkeret, .filmkeret, .filmkeret1{
+    word-wrap: break-word;
+}
+ .textarea
+{
+	resize: none;
+	-webkit-border-radius: 3px;
+	max-width: 100%;
+}
+#kereshely
+{
+	max-width: 100%;
+}
+
+.nav navbar-nav navbar ul
+{
+	background-color: rgb(33, 14, 141);
+}
+
+#temasorrend
+{
+	margin-top: 15px;
+	width: 20%;
+	height: 40px;
+	font-size: 14px;
+}
+select
+{
+	width: 20%;
+	padding: 10px 15px;
+	border-color: white;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.felvitelselect
+{
+	width: 100%;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	margin-left: 10px;
+	border-color: #7db0f3;
+}
+
+#felvitelcontainer
+{
+	border-radius: 5px;
+	background-color: #c7dcfa;
+	font-size: 12px;
+	padding: 20px;
+	text-align: justify;
+}
+#felvitel
+{
+	margin-right: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	color: #111;
+}
+#temanav
+{
+	color: none;
+}
+.modal-body p {
+    word-wrap: break-word;
+}
+#modalistartalma
+{
+	font-family: "Times New Roman";
+}
+.glyphicon
+{
+	letter-spacing: 5px;
+}
+

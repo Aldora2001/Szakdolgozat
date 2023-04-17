@@ -1,0 +1,34 @@
+<style>
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #ccc;
+}
+
+#emotion label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#emotion label img {
+    padding: 3px;
+}
+</style>
+
+
+
+<div id="emotion">
+    <input type="radio" name="emotion" value="1" />
+        <label for="1"><img src="kepek/gombok/mellizom.png" id="mellgomb" alt="Mell" style="width:75px"/></label>
+    <input type="radio" name="emotion" value="2" />
+        <label for="2"><img src="kepek/gombok/karizom.png" id="kargomb" alt="Kar" style="width:75px"/></label>
+    <input type="radio" name="emotion" value="3" />
+        <label for="3"><img src="kepek/gombok/hatizom.png" id="vallgomb" alt="Váll" style="width:75px"/></label>
+    <input type="radio" name="emotion" value="4" />
+        <label for="4"><img src="kepek/gombok/vallizom.png" id="hatgomb" alt="Hát" style="width:75px"/></label>
+    <input type="radio" name="emotion" value="5" />
+        <label for="5"><img src="kepek/gombok/lab.png" id="labgomb" alt="Láb" style="width:75px"/></label>
+</div>

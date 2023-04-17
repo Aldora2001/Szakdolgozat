@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #e3b1ec;
+  color: rgb(44, 0, 44);
+}
+.kartyakep
+{
+	background-color:#E6E6FA;
+}
+
+#belso
+{
+	background-color: white;
+  border-radius: 20px;
+}
+
+.feladatcim
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.athelyezes
+{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 10px;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.gomb
+{
+  margin-inline: 2px;
+  background-color: #edc8f3;
+  border: #e498f1;
+}
+
+.gomb:hover
+{
+  background-color: #a9aaf5;
+}
+
+.kuka
+{
+  text-align: right;
+  margin-right: 25px;
+}
+
+.torles
+{
+  padding: 0%;
+  text-align: center;
+  color:rgb(95, 110, 110);
+}
+
+.readmore
+{
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+.readmore:hover
+{
+  color: rgb(240, 137, 235);
+}
+
+.datum
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.responsive
+{
+  width: 50%;
+  height: auto;
+}
